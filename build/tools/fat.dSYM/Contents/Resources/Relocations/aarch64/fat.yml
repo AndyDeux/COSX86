@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'build/tools/fat'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _readBootSector, symObjAddr: 0x0, symBinAddr: 0x100003614, symSize: 0x44 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _g_Fat, symObjAddr: 0x2300, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0x6B, size: 0x8, addend: 0x0, symName: _g_RootDirectory, symObjAddr: 0x2308, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x163, offset: 0x163, size: 0x8, addend: 0x0, symName: _g_BootSector, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x290, offset: 0x290, size: 0x8, addend: 0x0, symName: _g_RootDirectoryEnd, symBinAddr: 0x100008050, symSize: 0x0 }
+  - { offsetInCU: 0x299, offset: 0x299, size: 0x8, addend: 0x0, symName: _readBootSector, symObjAddr: 0x0, symBinAddr: 0x100003614, symSize: 0x44 }
+  - { offsetInCU: 0x2C1, offset: 0x2C1, size: 0x8, addend: 0x0, symName: _readSectors, symObjAddr: 0x44, symBinAddr: 0x100003658, symSize: 0xF4 }
+  - { offsetInCU: 0x321, offset: 0x321, size: 0x8, addend: 0x0, symName: _readFat, symObjAddr: 0x138, symBinAddr: 0x10000374C, symSize: 0x64 }
+  - { offsetInCU: 0x349, offset: 0x349, size: 0x8, addend: 0x0, symName: _readRootDirectory, symObjAddr: 0x19C, symBinAddr: 0x1000037B0, symSize: 0xE8 }
+  - { offsetInCU: 0x39B, offset: 0x39B, size: 0x8, addend: 0x0, symName: _findFile, symObjAddr: 0x284, symBinAddr: 0x100003898, symSize: 0xB0 }
+  - { offsetInCU: 0x3DF, offset: 0x3DF, size: 0x8, addend: 0x0, symName: _readFile, symObjAddr: 0x334, symBinAddr: 0x100003948, symSize: 0x190 }
+  - { offsetInCU: 0x461, offset: 0x461, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4C4, symBinAddr: 0x100003AD8, symSize: 0x374 }
+...
