@@ -1,6 +1,10 @@
 # 💾 **Custom x86 Operating System**
 
 
+![OS](https://github.com/user-attachments/assets/75b7c378-3f0f-4a47-a9f1-0e14b996470a)
+
+
+
 **This project has been an intriguing exploration into low-level programming, where I’ve worked with an x86 assembler in 16-bit mode, simulating the environment of a 16-bit 8086 processor. What began as a free-time experiment to grasp the fundamentals of computer operation evolved into a foundational barebone custom x86 operating system developed from scratch. This journey has allowed me to dive deep into assembly language, C, and various emulation and debugging tools, furthering my understanding of operating system internals.**
 
 ### 🚀 Journey:
@@ -191,3 +195,7 @@ make all
 - Graphical User Interface (GUI): Develop a basic GUI to enhance user interaction with the system, making it more accessible and visually appealing.
 
 But all in due time! This is a project I recently started with the goal of gaining a deeper understanding of how computers operate. It’s just the beginning, I have many more functionalities planned for the future!
+
+![SimCoupe-Debugger-Step-Over](https://github.com/user-attachments/assets/4da6e481-a175-48e0-b67c-28da2a9e6ecc)
+
+
