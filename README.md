@@ -28,13 +28,14 @@ Building this OS from the ground up presented several challenges. Writing the bo
 ```plaintext
 ┌──────────────────────┐
 │      Assembly        │
-│  (Bootloader)        │
+│  (Bootloader &       │
+│   Kernel)            │
 └──────────┬───────────┘
            │
            ▼
 ┌──────────────────────┐     ┌─────────────────────┐
 │        C             │     │     QEMU            │
-│  (Kernel & FAT12)    │◄───►│  (Emulation)        │
+│  (FAT12)             │◄───►│  (Emulation)        │
 └──────────┬───────────┘     └──────────┬──────────┘
            │                             │
            ▼                             │
@@ -44,8 +45,8 @@ Building this OS from the ground up presented several challenges. Writing the bo
 └──────────────────────┘     └─────────────────────┘
 ```
 
- - Assembly: Used for the bootloader and low-level system initialization.
- - C: Used for the kernel and implementing the FAT12 file system.
+ - Assembly: Used for both the bootloader and kernel, handling low-level system initialization.
+ - C: Implemented for the FAT12 file system.
  - QEMU: A fast processor emulator that allows running the operating system in a virtual environment.
  - Bochs: A more detailed x86 PC emulator that I used for debugging.
  - Makefile: Automates the build process, making it easy to compile and run the OS.
